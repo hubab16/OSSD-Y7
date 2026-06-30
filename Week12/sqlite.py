@@ -13,6 +13,9 @@ cursor.execute("""
     )
 """)
 
+# Insert sample student record
+cursor.execute("INSERT INTO students (name, age, grade) VALUES (?, ?, ?)", ("Ali", 20, "A"))
+
 con.commit()
 con.close()
 
