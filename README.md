@@ -100,3 +100,7 @@ Each Week folder will contain the tasks to be completed most probably the one we
 
 ---
 
+
+
+## Update Log
+- Week 10, 11, 12 tasks completed and merged via Pull Request.
