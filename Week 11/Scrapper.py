@@ -35,3 +35,4 @@ def save_to_csv(data, filename):
         writer.writeheader()
         writer.writerows(data)
     print(f"Data saved to {filename}")
+    print(f"Total records saved: {len(data)}")
